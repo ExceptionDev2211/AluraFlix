@@ -1,0 +1,13 @@
+.tagContainer{
+    background-color: rgba(107, 209, 255, 1);
+    border-radius: 15px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+.titleCard{
+    color: white;
+}

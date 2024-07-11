@@ -1,0 +1,55 @@
+.bannerContainer{
+    height: 70vh;
+    display: flex;
+    padding: 30px;
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 95%;
+    
+    
+}
+.bannerBackground{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.6;
+    object-fit: cover;
+    
+    left: -15px;
+    width: 99%;
+}
+
+.description{
+    position: relative;
+    top: 70px;
+    height: 200px;
+    width: 50%;
+}
+.descriptionTitle{
+    color: white;
+    
+}
+.descriptionText{
+    color: white;
+
+}
+.bannerDescription{
+    height: 80%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ifBanner{
+    height: 90%;
+    align-self: center;
+    justify-self: center;
+    width: 40%;
+    border: 2px solid  rgba(107, 209, 255, 1);
+    box-shadow: -2px 3px 17px 3px  rgba(107, 209, 255, 1);
+    border-radius: 15px;
+}
